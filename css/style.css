@@ -65,6 +65,31 @@ main {
     height: 80%;
 }
 
+.escolhe-modelo {
+    position: absolute;
+    left: 470px;
+    top: 100px;
+    text-align: center;
+}
+.modelo {
+    width: 90px;
+    padding: 10px 25px;
+    margin-bottom: 10px;
+    background: turquoise;
+    font-weight: bold;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+}
+
+.modelo:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
 /****************************** Equipamentos *****/
 
 .equipamentos {
@@ -76,7 +101,7 @@ main {
 }
 
 .montador-conteudo {
-    padding: 2em 10%;
+    padding: 0 10%;
 }
 
 .peca {
